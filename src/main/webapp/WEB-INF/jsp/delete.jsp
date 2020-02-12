@@ -7,9 +7,9 @@
 <title>Delete Employee</title>
 </head>
 <body>
-<form action="/delete/{id}">
-Id <input type="text" name="id">
-Delete<input type="submit" name="Delete">
+<form action="/deleteStudent" method="post">
+Id 		<input type="text" name="id">
+Delete	<input type="submit" name="Delete">
 
 </form>
 </body>

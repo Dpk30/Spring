@@ -8,10 +8,18 @@
 </head>
 <body>
 
-<input type="button" name="add"  value="ADD" >
-<input type="button" name="delete" value="DELETE">
-<input type="button" name="search" value="SEARCH">
-<input type="button" name="view" value="VIEW">
+
+
+<form name="Form1" action="/redirect">
+<input type="submit" id="add" name="click" value="ADD" "> 
+<input type="submit" id="delete" name="click" value="DELETE" >
+<input type="submit" id="search" name="click" value="SEARCH">
+<input type="submit" id="view" name="click" value="VIEW" >
+<input type="submit" id="update" name="click" value="UPDATE" >
+</form>
+
+
+</script>
 
 </body>
 </html>

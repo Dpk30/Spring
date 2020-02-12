@@ -1,10 +1,11 @@
 package com.example.Repository;
-import org.springframework.stereotype.Repository;
-import com.example.Entity.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.example.Entity.Student;
 
 @Repository
-public interface AppRepository extends JpaRepository<Employee,Integer> {
+public interface AppRepository extends JpaRepository<Student, Integer> {
 
 	
 

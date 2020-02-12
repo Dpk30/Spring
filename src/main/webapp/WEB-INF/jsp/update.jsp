@@ -4,14 +4,19 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Welcome To Student Portal</title>
+<title>Update Employee</title>
 </head>
 <body>
+<form action="/updateStudent" method="post">
+Name	<input type="text" name="name"> <br>
+Id		<input type="text" name="id"><br>
+Course	<input type="text" name="course"><br>
 
-Add<input type="button" name="add" >
-Delete<input type="button" name="delete">
-Search<input type="button" name="search">
-View<input type="button" name="view">
+<input type="submit" name="Update" value="UPDATE"><br>
+
+
+</form>
+
 
 </body>
 </html>

@@ -4,8 +4,8 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Search Employee</title>
-<form action="/search/{id}">
+<title>Search Student</title>
+<form action="/searchStudent" method="get">
 Id <input type="text" name="id">
 Search<input type="submit" name="Search">
 <form>

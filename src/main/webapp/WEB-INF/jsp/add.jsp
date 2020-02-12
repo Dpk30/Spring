@@ -7,12 +7,12 @@
 <title>Add Employee</title>
 </head>
 <body>
-<form action="/add">
-Name<input type="text" name="name">
-Id<input type="text" name="id">
-Course<input type="text" name="course">
+<form action="/addStudent" method="post">
+Name	<input type="text" name="name"> <br>
+Id		<input type="text" name="id"><br>
+Course	<input type="text" name="course"><br>
 
-<input type="submit" name="Add" value="ADD">
+<input type="submit" name="Add" value="ADD"><br>
 
 
 </form>
